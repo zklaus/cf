@@ -23,7 +23,7 @@ enum Commands {
 enum FeedstockCommands {
     Setup,
     Work,
-    ListPRs,
+    ListPrs,
     Rerender,
     UpdateVersion,
     Lint,
@@ -37,35 +37,35 @@ fn main() {
     match cli.command {
         Commands::Feedstock { command } => match command {
             FeedstockCommands::Setup => {
-                eprintln!("Command not implemented yet.")
+                eprintln!("Command not implemented yet.");
                 process::exit(1);
             }
             FeedstockCommands::Work => {
-                eprintln!("Command not implemented yet.")
+                eprintln!("Command not implemented yet.");
                 process::exit(1);
             }
-            FeedstockCommands::ListPRs => {
-                eprintln!("Command not implemented yet.")
+            FeedstockCommands::ListPrs => {
+                eprintln!("Command not implemented yet.");
                 process::exit(1);
             }
             FeedstockCommands::Rerender => {
-                eprintln!("Command not implemented yet.")
+                eprintln!("Command not implemented yet.");
                 process::exit(1);
             }
             FeedstockCommands::UpdateVersion => {
-                eprintln!("Command not implemented yet.")
+                eprintln!("Command not implemented yet.");
                 process::exit(1);
             }
             FeedstockCommands::Lint => {
-                eprintln!("Command not implemented yet.")
+                eprintln!("Command not implemented yet.");
                 process::exit(1);
             }
             FeedstockCommands::Migrator => {
-                eprintln!("Command not implemented yet.")
+                eprintln!("Command not implemented yet.");
                 process::exit(1);
             }
             FeedstockCommands::Config => {
-                eprintln!("Command not implemented yet.")
+                eprintln!("Command not implemented yet.");
                 process::exit(1);
             }
         },
